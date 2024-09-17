@@ -1,0 +1,27 @@
+/* style.css */
+
+.carousel-item img {
+    width: 100%; /* Menyesuaikan lebar gambar dengan kontainer */
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.carousel-caption p {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+.price-before {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+.price-after {
+    color: #e60023;
+    font-weight: bold;
+}
